@@ -1,0 +1,40 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    color: gray;
+}
+#board{
+    border: 3px solid steelblue;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.box{
+    width: 10px;
+    height: 10px;
+    float: left;
+}
+.row {
+    clear: both;
+}
+.info{
+    display: flex;
+    margin: 0 auto;
+    width: 600px;
+}
+.flex{
+    flex: 1;
+}
+.body-snake{
+    background-color: black;
+}
+.food{
+    background-color: greenyellow;
+}
+.head-snake{
+    background-color: red;
+}
